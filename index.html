@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TisztaPont – professzionális takarítás, kárpit- és szőnyegtisztítás, ablaktisztítás. Demo weboldal.">
+  <meta name="theme-color" content="#0c4a43">
+  <title data-i18n="meta_title">TisztaPont – Professzionális takarítás</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">
+    <div class="container topline-inner">
+      <span data-i18n="topline">LAKÁS · IRODA · KÁRPIT · SZŐNYEG · ABLAK</span>
+      <a href="#ajanlat" data-i18n="topline_cta">Gyors ajánlatkérés →</a>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#top" class="brand">Tiszta<span>Pont</span></a>
+      <nav>
+        <a href="#szolgaltatasok" data-i18n="nav_services">Szolgáltatások</a>
+        <a href="#miert" data-i18n="nav_why">Miért mi?</a>
+        <a href="#folyamat" data-i18n="nav_process">Hogyan működik?</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang">
+          <button data-lang="hu" class="active">HU</button>
+          <button data-lang="en">EN</button>
+          <button data-lang="es">ES</button>
+        </div>
+        <a href="#ajanlat" class="btn btn-small" data-i18n="nav_quote">Ajánlatot kérek</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker" data-i18n="hero_kicker">TISZTASÁG, AMIT ÉREZNI LEHET</p>
+          <h1 data-i18n="hero_title">Ragyogó otthon. Friss kárpit. Tiszta ablak.</h1>
+          <p class="hero-text" data-i18n="hero_text">Komplett takarítási szolgáltatás lakásokhoz, apartmanokhoz, irodákhoz és üzlethelyiségekhez – egyszeri vagy rendszeres alkalommal.</p>
+          <div class="hero-actions">
+            <a href="#ajanlat" class="btn" data-i18n="hero_btn">Ingyenes ajánlatkérés</a>
+            <a href="#szolgaltatasok" class="text-link" data-i18n="hero_more">Szolgáltatások megtekintése ↓</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>7+</strong><span data-i18n="trust_1">féle szolgáltatás</span></div>
+            <div><strong>1×</strong><span data-i18n="trust_2">vagy rendszeresen</span></div>
+            <div><strong>✓</strong><span data-i18n="trust_3">egyedi ajánlat</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1800&q=86" alt="Takarítószer és gumikesztyű">
+          </div>
+          <div class="floating-card">
+            <span>✨</span>
+            <div><b data-i18n="float_title">Friss, rendezett, tiszta.</b><small data-i18n="float_text">Otthon és munkahelyen is.</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-strip">
+      <div class="container service-strip-inner">
+        <span>🧹 <b data-i18n="strip_1">Lakástakarítás</b></span>
+        <span>🛋️ <b data-i18n="strip_2">Kárpittisztítás</b></span>
+        <span>🧼 <b data-i18n="strip_3">Szőnyegtisztítás</b></span>
+        <span>🪟 <b data-i18n="strip_4">Ablaktisztítás</b></span>
+      </div>
+    </section>
+
+    <section id="szolgaltatasok" class="section">
+      <div class="container">
+        <div class="section-head split-head">
+          <div>
+            <p class="kicker dark" data-i18n="services_kicker">MIBEN SEGÍTÜNK?</p>
+            <h2 data-i18n="services_title">Nem egyetlen takarítási csomag. Pont azt végezzük el, amire szüksége van.</h2>
+          </div>
+          <p data-i18n="services_intro">A szolgáltatások külön-külön és kombinálva is kérhetők. A végleges ügyféloldalon az árak, terület és pontos feltételek egyszerűen személyre szabhatók.</p>
+        </div>
+
+        <div class="services-mosaic">
+          <article class="service-feature large">
+            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1500&q=86" alt="Tiszta modern konyha">
+            <div class="service-overlay">
+              <span>01</span>
+              <h3 data-i18n="s1_title">Lakás- és apartmantakarítás</h3>
+              <p data-i18n="s1_text">Teljes vagy részleges takarítás, költözés előtt/után, vendégváltáskor vagy rendszeresen.</p>
+            </div>
+          </article>
+
+          <article class="service-feature">
+            <img src="https://unsplash.com/photos/5TXz228u4eo/download?force=true" alt="Kárpittisztítás géppel">
+            <div class="service-overlay"><span>02</span><h3 data-i18n="s2_title">Kárpittisztítás</h3><p data-i18n="s2_text">Kanapék, fotelek, székek és textilfelületek mélytisztítása.</p></div>
+          </article>
+
+          <article class="service-feature color-card">
+            <span class="big-icon">🧼</span>
+            <span class="number">03</span>
+            <h3 data-i18n="s3_title">Szőnyegtisztítás</h3>
+            <p data-i18n="s3_text">Por, foltok és használati szennyeződés eltávolítása gépi tisztítással.</p>
+          </article>
+
+          <article class="service-feature">
+            <img src="https://images.unsplash.com/photo-1527352774566-e4916e36c645?auto=format&fit=crop&w=1400&q=86" alt="Ablaktisztítás">
+            <div class="service-overlay"><span>04</span><h3 data-i18n="s4_title">Ablaktisztítás</h3><p data-i18n="s4_text">Üvegfelületek, keretek és könnyen elérhető külső-belső ablakok tisztítása.</p></div>
+          </article>
+
+          <article class="service-feature color-card light">
+            <span class="big-icon">🏢</span>
+            <span class="number">05</span>
+            <h3 data-i18n="s5_title">Iroda és üzlethelyiség</h3>
+            <p data-i18n="s5_text">Rendszeres vagy alkalmi takarítás kisebb irodákhoz, üzletekhez és rendelőkhöz.</p>
+          </article>
+
+          <article class="service-feature">
+            <img src="https://unsplash.com/photos/Iu6parQAO-U/download?force=true" alt="Professzionális takarítás">
+            <div class="service-overlay"><span>06</span><h3 data-i18n="s6_title">Nagytakarítás</h3><p data-i18n="s6_text">Alapos, több területre kiterjedő takarítás szezonálisan vagy különleges alkalom előtt.</p></div>
+          </article>
+        </div>
+
+        <div class="mini-services">
+          <span>✓ <span data-i18n="mini_1">Konyha és fürdőszoba</span></span>
+          <span>✓ <span data-i18n="mini_2">Portalanítás és felmosás</span></span>
+          <span>✓ <span data-i18n="mini_3">Matractisztítás</span></span>
+          <span>✓ <span data-i18n="mini_4">Költözés utáni takarítás</span></span>
+          <span>✓ <span data-i18n="mini_5">Apartman vendégváltás</span></span>
+          <span>✓ <span data-i18n="mini_6">Egyedi igények</span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="miert" class="section why">
+      <div class="container why-grid">
+        <div class="why-photo">
+          <img src="https://unsplash.com/photos/FBXuXp57eM0/download?force=true" alt="Tiszta nappali és kanapé">
+          <div class="badge-card"><strong data-i18n="badge_title">A részletek számítanak.</strong><span data-i18n="badge_text">Nem csak gyorsan – alaposan.</span></div>
+        </div>
+        <div class="why-copy">
+          <p class="kicker dark" data-i18n="why_kicker">MIÉRT FONTOS EGY JÓ TAKARÍTÓ?</p>
+          <h2 data-i18n="why_title">Nem csak tisztább lesz. Időt és energiát is visszakap.</h2>
+          <p data-i18n="why_text">Egy jó szolgáltatás kiszámítható, pontos és egyszerűen kérhető. A weboldal ezt az élményt már az első kapcsolatfelvételnél megmutatja.</p>
+          <div class="why-list">
+            <div><b>01</b><span><strong data-i18n="why1t">Rugalmas időpontok</strong><small data-i18n="why1p">Egyszeri vagy rendszeres alkalmak.</small></span></div>
+            <div><b>02</b><span><strong data-i18n="why2t">Átlátható egyeztetés</strong><small data-i18n="why2p">Előre tisztázott feladatok és igények.</small></span></div>
+            <div><b>03</b><span><strong data-i18n="why3t">Több szolgáltatás egy helyen</strong><small data-i18n="why3p">Lakás, kárpit, szőnyeg, ablak és iroda.</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="folyamat" class="section process-section">
+      <div class="container">
+        <div class="section-head centered">
+          <p class="kicker dark" data-i18n="process_kicker">EGYSZERŰ FOLYAMAT</p>
+          <h2 data-i18n="process_title">Négy lépés, és már kezdődhet is.</h2>
+        </div>
+        <div class="process">
+          <div class="process-step"><span>1</span><h3 data-i18n="p1t">Írja meg, mire van szüksége</h3><p data-i18n="p1p">Típus, méret, helyszín és kívánt szolgáltatás.</p></div>
+          <div class="process-step"><span>2</span><h3 data-i18n="p2t">Egyeztetjük a részleteket</h3><p data-i18n="p2p">Időpont, feladatok és különleges kérések.</p></div>
+          <div class="process-step"><span>3</span><h3 data-i18n="p3t">Megkapja az ajánlatot</h3><p data-i18n="p3p">A konkrét munkához igazított feltételekkel.</p></div>
+          <div class="process-step"><span>4</span><h3 data-i18n="p4t">Jöhet a tisztaság</h3><p data-i18n="p4p">A megbeszélt időben elvégezzük a feladatot.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="before-after">
+      <div class="container before-grid">
+        <div>
+          <p class="kicker" data-i18n="detail_kicker">KÁRPIT ÉS TEXTIL</p>
+          <h2 data-i18n="detail_title">Ahol a hétköznapi takarítás már kevés.</h2>
+          <p data-i18n="detail_text">A gépi kárpittisztítás külön szolgáltatásként is kérhető. Kanapé, fotel, szék, matrac vagy más textilfelület – az anyag és állapot alapján egyeztetve.</p>
+          <a href="#ajanlat" class="btn btn-light" data-i18n="detail_btn">Kárpittisztításra kérek ajánlatot</a>
+        </div>
+        <div class="detail-photo"><img src="https://unsplash.com/photos/5TXz228u4eo/download?force=true" alt="Kanapé gépi kárpittisztítása"></div>
+      </div>
+    </section>
+
+    <section id="ajanlat" class="section quote-section">
+      <div class="container quote-grid">
+        <div class="quote-copy">
+          <p class="kicker dark" data-i18n="quote_kicker">AJÁNLATKÉRÉS</p>
+          <h2 data-i18n="quote_title">Mondja el, mit szeretne kitakaríttatni.</h2>
+          <p data-i18n="quote_text">Ez egy bemutató űrlap. A végleges weboldalon e-mailhez, WhatsApphoz vagy más kapcsolatfelvételi megoldáshoz kapcsolható.</p>
+          <div class="contact-box">
+            <span>📞 +36 30 123 4567</span>
+            <span>✉ hello@tisztapont-demo.hu</span>
+            <span>📍 <span data-i18n="contact_area">Budapest és környéke – demo adat</span></span>
+          </div>
+        </div>
+        <form id="quoteForm" class="quote-form">
+          <div class="form-row">
+            <label><span data-i18n="form_name">Név</span><input type="text" required></label>
+            <label><span data-i18n="form_phone">Telefonszám</span><input type="tel" required></label>
+          </div>
+          <label><span data-i18n="form_service">Milyen szolgáltatás érdekli?</span>
+            <select required>
+              <option value="" data-i18n="form_choose">Válasszon...</option>
+              <option data-i18n="s1_title">Lakás- és apartmantakarítás</option>
+              <option data-i18n="s2_title">Kárpittisztítás</option>
+              <option data-i18n="s3_title">Szőnyegtisztítás</option>
+              <option data-i18n="s4_title">Ablaktisztítás</option>
+              <option data-i18n="s5_title">Iroda és üzlethelyiség</option>
+              <option data-i18n="s6_title">Nagytakarítás</option>
+            </select>
+          </label>
+          <label><span data-i18n="form_message">Rövid leírás</span><textarea rows="5" data-i18n-placeholder="form_placeholder" placeholder="Pl. 70 m² lakás, nagytakarítás + 5 ablak..."></textarea></label>
+          <button type="submit" class="btn btn-full" data-i18n="form_btn">Ajánlatkérés elküldése →</button>
+          <small data-i18n="form_note">Demo űrlap – nem küld valódi üzenetet.</small>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <div class="container faq-grid">
+        <div>
+          <p class="kicker dark">FAQ</p>
+          <h2 data-i18n="faq_title">Gyakori kérdések</h2>
+          <p data-i18n="faq_intro">A végleges oldalon a vállalkozás saját feltételei és válaszai kerülnek ide.</p>
+        </div>
+        <div class="faq-list">
+          <details open><summary data-i18n="faq1q">Lehet csak egyetlen alkalomra kérni takarítást?</summary><p data-i18n="faq1a">Igen, az egyszeri és rendszeres takarítás is külön ajánlat alapján kérhető.</p></details>
+          <details><summary data-i18n="faq2q">Kárpittisztítás külön is kérhető?</summary><p data-i18n="faq2a">Igen, kanapé, fotel, matrac vagy más textilfelület tisztítására is kérhető külön ajánlat.</p></details>
+          <details><summary data-i18n="faq3q">Az ár előre megmondható?</summary><p data-i18n="faq3a">A végleges ár a terület, a feladatok és az állapot alapján adható meg pontosan.</p></details>
+          <details><summary data-i18n="faq4q">Apartman vendégváltás is kérhető?</summary><p data-i18n="faq4a">Igen, a szolgáltatás kialakítható rendszeres apartman- és nyaralószállás takarításra is.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="web-cta">
+      <div class="container web-cta-inner">
+        <div>
+          <p class="kicker" data-i18n="web_kicker">NINCS MÉG WEBOLDALA?</p>
+          <h2 data-i18n="web_title">Modern weboldalt szeretne takarító vállalkozásának?</h2>
+          <p data-i18n="web_text">Ez a TisztaPont oldal egy bemutató példa. Hasonló, saját névre, szolgáltatásokra, képekre és elérhetőségekre szabott oldalt készítek takarító vállalkozásoknak.</p>
+        </div>
+        <a href="https://mesterweb-nco7.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-light" data-i18n="web_btn">Érdeklődöm a weboldalról →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#top">Tiszta<span>Pont</span></a><p data-i18n="footer_desc">Takarítás · Kárpit · Szőnyeg · Ablak · Demo weboldal</p></div>
+      <div><strong data-i18n="footer_contact">Kapcsolat</strong><a href="tel:+36301234567">+36 30 123 4567</a><a href="mailto:hello@tisztapont-demo.hu">hello@tisztapont-demo.hu</a></div>
+      <div><strong data-i18n="footer_sources">Képforrások</strong><a class="footer-source-link" href="kepforrasok.html" data-i18n="footer_sources_link">Képforrások és fotósok megtekintése →</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 TisztaPont Demo</span><span data-i18n="footer_demo">A nevek, árak és elérhetőségek bemutató adatok.</span></div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a href="#ajanlat" data-i18n="mobile_quote">AJÁNLATKÉRÉS</a>
+    <a href="tel:+36301234567" data-i18n="mobile_call">HÍVÁS</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
